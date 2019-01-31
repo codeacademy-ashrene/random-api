@@ -2,14 +2,14 @@
   "development": {
     "username": "Ashrene_Roy",
     "password": "password",
-    "database": "quotesDev",
+    "database": "quotesdev",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "Ashrene_Roy",
     "password": "password",
-    "database": "quotesTest",
+    "database": "quotestest",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

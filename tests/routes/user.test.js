@@ -6,7 +6,7 @@ const options = {
   payload: {
     name: 'Ashrene',
     email: 'ashrene@gmail.com',
-    noOfQuery: 4,
+    noOfQuotes: 4,
   },
 };
 
