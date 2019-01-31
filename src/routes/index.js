@@ -1,7 +1,7 @@
 const pingRoutes = require('./ping');
-const createRoutes = require('./create');
+const userRoutes = require('./user');
 
 module.exports = [
   ...pingRoutes,
-  ...createRoutes,
+  ...userRoutes,
 ];

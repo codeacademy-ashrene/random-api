@@ -1,16 +1,16 @@
 const Joi = require('joi');
-const { createHandler } = require('../handlers/createHandler');
+const { userHandler } = require('../handlers/userHandler');
 
 module.exports = [{
   path: '/user',
   method: 'POST',
-  handler: createHandler,
+  handler: userHandler,
   config: {
     validate: {
       payload: {
         name: Joi.string().required(),
         email: Joi.string().required(),
-        noOfQuery: Joi.number().required(),
+        noOfQuotes: Joi.number().required(),
       },
     },
   },
